@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+}
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"], .return-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.return-button {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.return-button:hover {
+    background-color: #d32f2f;
+}
+
+.success-message {
+    color: #4caf50;
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Estilo para la alerta */
+.alert {
+    background-color: #f2dede;
+    color: #a94442;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ebccd1;
+    margin: 0 auto 20px; /* Centra la alerta horizontalmente */
+    max-width: 500px; /* Limita el ancho de la alerta */
+    text-align: center; /* Centra el texto dentro de la alerta */
+    position: relative; /* Para que el botón de cierre esté posicionado correctamente */
+}
+
+/* Estilo para el botón de cierre de la alerta */
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+/* Estilo para el texto dentro de la alerta */
+.alert-message {
+    margin: 0;
+}
